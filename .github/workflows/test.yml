@@ -50,3 +50,4 @@ jobs:
 
       - run: netsh interface ipv4 show excludedportrange protocol=udp
       - run: netsh interface ipv6 show excludedportrange protocol=udp
+      - run: netstat -ano
